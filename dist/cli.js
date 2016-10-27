@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 var fs_1 = require('mz/fs');
 var index_1 = require('./index');
