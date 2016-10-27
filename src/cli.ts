@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { JSONSchema } from './JSONSchema'
 
 import { readFile, writeFile } from 'mz/fs'
