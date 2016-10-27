@@ -295,7 +295,7 @@ class Compiler {
 
 export function compile(
   schema: JSONSchema,
-  path: string | undefined,
+  path?: string | undefined,
   settings?: Settings
 ): string {
   return new Compiler(schema, path, settings).toString()
